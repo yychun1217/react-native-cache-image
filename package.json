@@ -1,36 +1,59 @@
 {
-    "name": "@remobile/react-native-cache-image",
-        "version": "1.0.0",
-        "description": "A cache-image for react-native",
-        "main": "index.js",
-        "author": {
-            "name": "YunJiang.Fang",
-            "email": "42550564@qq.com"
-        },
-        "license": "MIT",
-        "keywords": [
-            "react-native",
-            "react-component",
-            "ios",
-            "android",
-            "cache-image",
-            "ref",
-            "cache",
-            "webcache",
-            "remobile",
-            "mobile"
-        ],
-        "homepage": "https://github.com/remobile/react-native-cache-image",
-        "bugs": {
-            "url": "https://github.com/remobile/react-native-cache-image/issues"
-        },
-        "repository": {
-            "type": "git",
-            "url": "git://github.com/remobile/react-native-cache-image.git"
-        },
-        "peerDependencies": {
-            "@remobile/react-native-sqlite": "^1.0.0",
-            "react-native-fs": "^1.0.0",
-            "react-timer-mixin": "^0.13.3"
-        }
+  "name": "@remobile/react-native-cache-image",
+  "version": "1.0.0",
+  "description": "A cache-image for react-native",
+  "main": "index.js",
+  "author": {
+    "name": "YunJiang.Fang",
+    "email": "42550564@qq.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "cache-image",
+    "ref",
+    "cache",
+    "webcache",
+    "remobile",
+    "mobile"
+  ],
+  "homepage": "https://github.com/remobile/react-native-cache-image",
+  "bugs": {
+    "url": "https://github.com/remobile/react-native-cache-image/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/remobile/react-native-cache-image.git"
+  },
+  "peerDependencies": {
+    "@remobile/react-native-sqlite": "^1.0.0",
+    "react-native-fs": "^1.0.0",
+    "react-timer-mixin": "^0.13.3"
+  },
+  "gitHead": "8d909ff43c9483d0bfe484517124f8249161b886",
+  "_id": "@remobile/react-native-cache-image@1.0.0",
+  "scripts": {},
+  "_shasum": "ece0edfcc0f56a24c2cc2904462f7bca88a135d9",
+  "_from": "@remobile/react-native-cache-image@*",
+  "_npmVersion": "2.14.4",
+  "_nodeVersion": "4.1.1",
+  "_npmUser": {
+    "name": "remobile",
+    "email": "42550564@qq.com"
+  },
+  "dist": {
+    "shasum": "ece0edfcc0f56a24c2cc2904462f7bca88a135d9",
+    "tarball": "http://registry.npmjs.org/@remobile/react-native-cache-image/-/react-native-cache-image-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "remobile",
+      "email": "42550564@qq.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/@remobile/react-native-cache-image/-/react-native-cache-image-1.0.0.tgz"
 }
