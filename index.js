@@ -195,7 +195,16 @@ var CacheImage = React.createClass({
         );
     },
     checkImageSource(cacheId, url) {
-        var type = url.replace(/.*\.(.*)/, '$1');
+        var type;
+        var re = /.jpg\??/ ;
+        if (!re.test(url)) {
+            re = /.png\??/ ;
+            if (re.test(url)) {
+                type = 'png';
+            }
+        } else {
+            type = 'jpg';
+        }
         var filename =  md5(url)+'.'+type;
         var filepath = storageMgr.getCacheFilePath(filename);
         this.param = {cacheId:cacheId, url:url, filename:filename, filepath:filepath};
